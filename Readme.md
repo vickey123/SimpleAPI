@@ -40,11 +40,13 @@ If its not installed you can run:
 
 ## Installation
 
-    $ pip3 install -r requirements.txt
+    $ pip install -r requirements.txt
 
 # Run the API
 
     $ python run.py
+    
+    By default the API uses the port 5000
 
 # Run Test
 
