@@ -12,5 +12,5 @@ RUN pip3 install logic
 RUN python3.6 -m venv venv 
 RUN . venv/bin/activate
 RUN pip3 install -r /tmp/requirements.txt
-RUN python3.6 /tmp/run.py
-RUN python3.6 -m unittest /tmp/logic_test.py
+#RUN python3.6 /tmp/run.py
+#RUN python3.6 -m unittest /tmp/logic_test.py
